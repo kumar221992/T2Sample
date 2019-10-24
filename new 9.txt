@@ -1,0 +1,23 @@
+----setting up Rx desktop at your local----local
++always make changes to brain2web.war(weblogic.xml -replicated to memory) and edrvlistner.war(weblogic.xml -replicated to memory) and application.xml while deploying brain2 for rx
+
+
++point meta.data.url to your workspace inside [meta.data.url=file:///C://RX_SERVERS_NEW//RX_FEB2017//RxCommonProperty//dr_dsl/metadata]desktop.dev.properties
+
++CTCOMFilter file---include your machine ip in trustedips
+ +login to weblogic server and change your creanteials to login at your local
+ 
+ 
+ --------------------------------------------------------------------------------------------------------------------------------------------
+ 
+ add icladapter into ur workspace--done
+
+apiqa--is for test env
+
+apipt--is for e2e env
+
+
+note-test and wst are same
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+to check which db you are pointing to --go to file name--rx2etx-4236-jdbc.xml --[locationC:\bea\user_projects\domains\rx\config\jdbc] if its rxtest11db--then test db
