@@ -1,4 +1,4 @@
-----setting up Rx desktop at your local----local
+----setting up Rx desktop at your local----
 +always make changes to brain2web.war(weblogic.xml -replicated to memory) and edrvlistner.war(weblogic.xml -replicated to memory) and application.xml while deploying brain2 for rx
 
 
