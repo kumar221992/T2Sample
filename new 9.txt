@@ -10,7 +10,7 @@
  
  --------------------------------------------------------------------------------------------------------------------------------------------
  
- add icladapter into ur workspace--done
+add all adapters into ur workspace--done
 
 apiqa--is for test env
 
